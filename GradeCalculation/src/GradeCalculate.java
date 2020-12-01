@@ -11,7 +11,7 @@ public class GradeCalculate {
 		double discussionSession = sc.nextDouble();
 		System.out.println("Please enter In Lecture Questions:");
 		double inLecture = sc.nextDouble();
-		
+
 		double total = (40*midTerm)/100 + (30*processEssay)/100 + (20* discussionSession)/100 + (10*inLecture) /100;
 		System.out.println("Total Point:" + total);
 		
